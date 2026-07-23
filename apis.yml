@@ -1,27 +1,103 @@
 aid: bonfire-ventures
 name: Bonfire Ventures
-description: 'Bonfire Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Bonfire Ventures is a Los Angeles-based, seed-stage venture capital firm co-founded by Mark Mullen
+  and Jim Andelman that invests exclusively in business-to-business (B2B) software companies, with a
+  current focus on AI-native B2B founders. The firm runs a low-volume, high-conviction, high-support
+  model — backing roughly 10 to 12 new companies a year, leading approximately 95% of the rounds it
+  participates in and taking board seats — and positions itself as "AI-native too," operating an
+  in-house AI system called Bonnie to source and support founders. Bonfire reports more than $18B in
+  cumulative exit value across its history, with notable outcomes including TaxJar (acquired by
+  Stripe), MNTN (IPO), The Trade Desk, Scopely, Moat (acquired by Oracle), and Comparably (acquired by
+  ZoomInfo). It was added to the API Evangelist network as a portfolio company of Foundry Group and
+  enriched from the firm's public site.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bonfirevc.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/bonfire-ventures/refs/heads/main/apis.yml
-x-type: company
+x-type: venture-capital
+x-category: Venture Capital
 x-source: vc-portfolio
 x-backed-by:
 - foundry-group
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-site
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
-- Company
 - Venture Capital
+- Seed
+- Early Stage
+- B2B SaaS
+- Enterprise Software
+- Business Software
+- AI
+- Los Angeles
+- California
+- North America
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+  url: https://apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+  url: http://apisjson.org
+- FN: Bonfire Ventures
+  url: https://www.bonfirevc.com
 common:
 - type: Website
   url: https://www.bonfirevc.com
+- type: Portfolio
+  url: https://www.bonfirevc.com/companies
+- type: Portfolio
+  url: portfolio/bonfire-ventures-portfolio.yml
+- type: Team
+  url: https://www.bonfirevc.com/team
+- type: About
+  url: https://www.bonfirevc.com/our-approach
+- type: Blog
+  url: https://www.bonfirevc.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bonfireventures/
+- type: Twitter
+  url: https://x.com/bonfire_vc
+- type: Jobs
+  url: https://jobs.bonfirevc.com/jobs
+- type: SignUp
+  url: https://yikdukb5nck.typeform.com/to/Tze30ymM
+- type: Login
+  url: https://www.fundpanel.io/
+- type: DomainSecurity
+  url: security/bonfire-ventures-domain-security.yml
+- type: Features
+  data:
+  - 'Stage: Seed-stage lead investor (leads ~95% of rounds, takes board seats)'
+  - 'Focus: B2B software exclusively; current thesis centered on AI-native B2B founders'
+  - 'Model: Low-volume, high-conviction, high-support (~10-12 new companies per year)'
+  - 'Differentiator: Operates an in-house AI system, "Bonnie," to source and support founders'
+  - 'Track record: $18B+ cumulative exit value (self-reported)'
+  - 'Notable exits: TaxJar (Stripe), MNTN (IPO), The Trade Desk, Scopely, Moat (Oracle), Comparably (ZoomInfo)'
+  - 'Co-founders: Mark Mullen, Jim Andelman'
+  - 'HQ: Los Angeles, California, USA'
+  sources:
+  - https://www.bonfirevc.com
+  - https://www.bonfirevc.com/companies
+  - https://www.bonfirevc.com/our-approach
+  - https://www.bonfirevc.com/team
+  updated: '2026-07-18'
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

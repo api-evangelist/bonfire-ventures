@@ -1,0 +1,112 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.bonfirevc.com/companies
+firm: Bonfire Ventures
+note: Portfolio harvested verbatim from the public Bonfire Ventures companies page, grouped by the stage
+  labels the firm uses on that page. Exited companies list the acquirer / outcome as shown.
+active:
+  early_stage:
+  - 1Fort
+  - Abstract
+  - Aforza
+  - Alice
+  - Alvys
+  - CalmWave
+  - Cascade
+  - ChangeEngine
+  - DepoDirect
+  - Fermata Discovery
+  - Flowpath
+  - GitStart
+  - Integry
+  - Inveterate
+  - Jeeva.ai
+  - Juno
+  - Katalyze
+  - KeySavvy
+  - KYC Hospitality
+  - Navless
+  - Nobl9
+  - Octave
+  - Odynn
+  - Orbifold
+  - Prado
+  - Prospr
+  - Ranger AI
+  - Reactiv
+  - Risotto
+  - Santé
+  - Supio
+  - Tabz
+  - TeamSense
+  - Telgorithm
+  - TireTutor
+  - Topia
+  - Truss
+  - Upp.
+  - Vali
+  - Voiceops
+  - WARP
+  - YoulIFY
+  - ZeroTier
+  - Zuub
+  early_growth:
+  - Atrium
+  - Blueprint Health
+  - Credit Key
+  - Cube
+  - Fuel 50
+  - Hum Capital
+  - Operative Intelligence
+  - Rainforest
+  - Shippabo
+  - Spekit
+  - Suite
+  - Topline Pro
+  - Wildfire
+  growth:
+  - Boulevard
+  - Branch
+  - ChowNow
+  - Cube
+  - Disqo
+  - Earnest Research
+  - Figment
+  - Invoca
+  - Postie
+  - Saferide Health
+  - Vanta
+  - Windfall
+exits:
+- company: Bitium
+  outcome: Acquired by Google
+- company: Bonsai Health
+  outcome: Acquired by ModMed
+- company: Burstly
+  outcome: Acquired by Apple
+- company: Comparably
+  outcome: Acquired by ZoomInfo
+- company: Duro
+  outcome: Acquired by Altium
+- company: Emotive
+  outcome: Acquired by Privy
+- company: EV Connect
+  outcome: Acquired by Schneider Electric
+- company: Honk
+  outcome: Acquired by Frontenac
+- company: Lettuce
+  outcome: Acquired by Intuit
+- company: MNTN
+  outcome: IPO
+- company: Moat
+  outcome: Acquired by Oracle
+- company: Mover
+  outcome: Acquired by Microsoft
+- company: TaxJar
+  outcome: Acquired by Stripe
+summary:
+  portfolio_total: 0
+  in_network: 0
+  api_providers: 0
+  missing: 0
+  stubs_created: 0
