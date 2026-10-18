@@ -106,9 +106,9 @@ exits:
   outcome: Acquired by Stripe
 summary:
   portfolio_total: 111
-  in_network: 43
+  in_network: 45
   api_providers: 14
-  missing: 68
+  missing: 66
   stubs_created: 0
 companies:
 - name: Destro
@@ -761,24 +761,27 @@ companies:
 - name: Comparably
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  suggested_slug: comparably
-  in_network: false
+  in_network: true
   is_api_provider: false
-  x-url-candidate: https://www.comparably.com:443/
+  url: https://www.comparably.com:443/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: crew32
+  matched_by: domain
 - name: Connexity
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: connexity
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.connexity.com/
+  url: https://www.connexity.com/
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: Datapop
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: datapop
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://datapop.ai
+  x-url-rejected: https://datapop.ai
 - name: Divshot
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -792,14 +795,14 @@ companies:
   suggested_slug: edgecast
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://edgecast.io
+  x-url-rejected: https://edgecast.io
 - name: Emailage
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: emailage
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://risk.lexisnexis.com/products/lexisnexis-emailage
+  x-url-rejected: https://risk.lexisnexis.com/products/lexisnexis-emailage
 - name: GradientX
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -818,17 +821,20 @@ companies:
 - name: HG Insights
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  suggested_slug: hg-insights
-  in_network: false
+  in_network: true
   is_api_provider: false
-  x-url-candidate: https://hginsights.com
+  url: https://hginsights.com
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: intricately
+  matched_by: domain
 - name: JazzHR
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: jazzhr
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://www.jazzhr.com/
+  url: https://www.jazzhr.com/
+  x-url-source: web check 2026-10-18 (confirmed)
 - name: Lettuce
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -865,7 +871,7 @@ companies:
   suggested_slug: mover
   in_network: false
   is_api_provider: false
-  x-url-candidate: http://www.mover.com/
+  x-url-rejected: http://www.mover.com/
 - name: Openpath
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -880,7 +886,7 @@ companies:
   suggested_slug: orbitera
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://orbitera.io
+  x-url-rejected: https://orbitera.io
 - name: Packet Island
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -893,7 +899,7 @@ companies:
   suggested_slug: pathmatics
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://sensortower.com:443/product/digital-advertising/pathmatics
+  x-url-rejected: https://sensortower.com:443/product/digital-advertising/pathmatics
 - name: Prevoty
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -921,11 +927,11 @@ companies:
   suggested_slug: resci
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://resci.co
+  x-url-rejected: https://resci.co
 - name: Respondly
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: respondly
   in_network: false
   is_api_provider: false
-  x-url-candidate: https://respondly.com
+  x-url-rejected: https://respondly.com

@@ -359,15 +359,8 @@ leads:
   source_vc: bonfire-ventures
   source: https://www.bonfirevc.com/companies
   stub_created: false
-- name: Comparably
-  url: ''
-  suggested_slug: comparably
-  sector: ''
-  source_vc: bonfire-ventures
-  source: https://www.bonfirevc.com/companies
-  stub_created: false
 - name: Connexity
-  url: ''
+  url: https://www.connexity.com/
   suggested_slug: connexity
   sector: ''
   source_vc: bonfire-ventures
@@ -401,15 +394,8 @@ leads:
   source_vc: bonfire-ventures
   source: https://www.bonfirevc.com/companies
   stub_created: false
-- name: HG Insights
-  url: ''
-  suggested_slug: hg-insights
-  sector: ''
-  source_vc: bonfire-ventures
-  source: https://www.bonfirevc.com/companies
-  stub_created: false
 - name: JazzHR
-  url: ''
+  url: https://www.jazzhr.com/
   suggested_slug: jazzhr
   sector: ''
   source_vc: bonfire-ventures
