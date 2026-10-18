@@ -423,7 +423,7 @@ leads:
   source: https://www.bonfirevc.com/companies
   stub_created: false
 - name: Momentfeed
-  url: ''
+  url: https://momentfeed.com
   suggested_slug: momentfeed
   sector: ''
   source_vc: bonfire-ventures

@@ -857,6 +857,8 @@ companies:
   suggested_slug: momentfeed
   in_network: false
   is_api_provider: false
+  url: https://momentfeed.com
+  x-url-source: web search 2026-10-18
 - name: Mover
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
