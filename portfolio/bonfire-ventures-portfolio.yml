@@ -166,10 +166,10 @@ companies:
   url: https://thisisalice.com
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  x-name-collision: alice
   suggested_slug: thisisalice-com
   in_network: false
   is_api_provider: false
+  x-name-collision: alice
 - name: Alvys
   url: https://alvys.com
   source: https://www.bonfirevc.com/companies
@@ -227,10 +227,10 @@ companies:
   url: https://cascadedebt.com
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  x-name-collision: cascade
   suggested_slug: cascadedebt-com
   in_network: false
   is_api_provider: false
+  x-name-collision: cascade
 - name: ChangeEngine
   url: https://changeengine.com
   source: https://www.bonfirevc.com/companies
@@ -584,18 +584,18 @@ companies:
   url: https://wearewarp.com
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  x-name-collision: warp
   suggested_slug: wearewarp-com
   in_network: false
   is_api_provider: false
+  x-name-collision: warp
 - name: Wildfire
   url: https://wildfire-corp.com
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
-  x-name-collision: wildfire
   suggested_slug: wildfire-corp-com
   in_network: false
   is_api_provider: false
+  x-name-collision: wildfire
 - name: Windfall
   url: https://windfalldata.com
   source: https://www.bonfirevc.com/companies
@@ -764,18 +764,21 @@ companies:
   suggested_slug: comparably
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.comparably.com:443/
 - name: Connexity
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: connexity
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.connexity.com/
 - name: Datapop
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: datapop
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://datapop.ai
 - name: Divshot
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -789,12 +792,14 @@ companies:
   suggested_slug: edgecast
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://edgecast.io
 - name: Emailage
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: emailage
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://risk.lexisnexis.com/products/lexisnexis-emailage
 - name: GradientX
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -807,19 +812,23 @@ companies:
   slug: haawk
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.haawk.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: HG Insights
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: hg-insights
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://hginsights.com
 - name: JazzHR
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: jazzhr
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://www.jazzhr.com/
 - name: Lettuce
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -827,6 +836,7 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://lettuce.co
 - name: MessageLabs
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -840,6 +850,7 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://moat.ai
 - name: Momentfeed
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -852,6 +863,7 @@ companies:
   suggested_slug: mover
   in_network: false
   is_api_provider: false
+  x-url-candidate: http://www.mover.com/
 - name: Openpath
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -859,12 +871,14 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  x-url-candidate: https://openpath.ai
 - name: Orbitera
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: orbitera
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://orbitera.io
 - name: Packet Island
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -877,6 +891,7 @@ companies:
   suggested_slug: pathmatics
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://sensortower.com:443/product/digital-advertising/pathmatics
 - name: Prevoty
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
@@ -897,15 +912,18 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://rentlytics.io
 - name: RESCI
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: resci
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://resci.co
 - name: Respondly
   source: https://www.bonfirevc.com/companies
   x-added: '2026-10-18'
   suggested_slug: respondly
   in_network: false
   is_api_provider: false
+  x-url-candidate: https://respondly.com
